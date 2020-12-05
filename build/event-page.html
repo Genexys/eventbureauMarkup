@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="">
+
+<!-- <link href="favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link href="favicon/site.webmanifest" rel="manifest">
+<link color="#c84659" href="favicon/safari-pinned-tab.svg" rel="mask-icon">
+<link href="favicon/favicon.ico" rel="shortcut icon">
+<meta content="#ffffff" name="msapplication-TileColor">
+<meta content="favicon/browserconfig.xml" name="msapplication-config">
+<meta content="#ffffff" name="theme-color">
+ -->
+
+<!-- <link rel="preload" href="fonts/placeholder.woff2" as="font" crossorigin="anonymous"> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<link rel="stylesheet" href="css/style.min.css">
+
+  <title>ИВЕНТ-БЮРО</title>
+
+</head>
+<body>
+
+<div style="display: none;">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-heart"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.431 4.642a5.605 5.605 0 017.927 7.927l-1.441 1.441-7.907 7.927-7.927-7.927-1.441-1.441a5.605 5.605 0 017.927-7.927l1.441 1.441 1.421-1.441z" fill="#111"></path></symbol><symbol id="icon-phone" viewBox="0 0 27.556 27.556">
+  <path id="icon-phone" d="M11.14,26.178a2.738,2.738,0,0,0-.26-1.456q-.09-.339-.271-.949t-.322-1.111q-.141-.5-.254-.954c-.008-.052-.036-.213-.085-.48a4.522,4.522,0,0,0-.158-.644,1.043,1.043,0,0,0-.243-.4,1.326,1.326,0,0,0-.886-.241,7.653,7.653,0,0,0-1.321.079,9.874,9.874,0,0,1-1.3.1,1.215,1.215,0,0,1-.841-.2,1.078,1.078,0,0,1-.2-.311,3.337,3.337,0,0,1-.135-.327c-.027-.079-.064-.222-.113-.429s-.077-.321-.085-.344A16.736,16.736,0,0,1,3.984,13.9a16.738,16.738,0,0,1,.688-4.616c.007-.023.036-.137.085-.344s.086-.35.113-.429a3.438,3.438,0,0,1,.135-.327,1.1,1.1,0,0,1,.2-.311,1.215,1.215,0,0,1,.841-.2,9.87,9.87,0,0,1,1.3.1,7.751,7.751,0,0,0,1.321.08,1.331,1.331,0,0,0,.886-.242,1.043,1.043,0,0,0,.243-.4,4.522,4.522,0,0,0,.158-.644c.049-.267.077-.427.085-.48q.113-.452.254-.954t.322-1.111c.12-.406.211-.723.271-.948a2.742,2.742,0,0,0,.26-1.457.9.9,0,0,0-.2-.271,5.365,5.365,0,0,0-.909-.681A6.31,6.31,0,0,0,9.018.129a4.274,4.274,0,0,0-2.573.18A6.181,6.181,0,0,0,3.77,1.833a6.033,6.033,0,0,0-.553.632,6.819,6.819,0,0,0-.508.789q-.26.462-.373.7t-.395.858c-.188.414-.3.664-.35.755A14.456,14.456,0,0,0,.553,8.48,23.667,23.667,0,0,0,0,13.9a23.663,23.663,0,0,0,.553,5.417,14.456,14.456,0,0,0,1.038,2.912c.045.091.162.342.35.756s.32.7.395.857.2.391.373.7a6.819,6.819,0,0,0,.508.789,5.823,5.823,0,0,0,.553.632,6.181,6.181,0,0,0,2.675,1.525,4.284,4.284,0,0,0,2.573.181,6.47,6.47,0,0,0,1.01-.536,5.3,5.3,0,0,0,.909-.682.9.9,0,0,0,.2-.271Z" transform="translate(0 7.901) rotate(-45)" fill="#fff"></path>
+</symbol><symbol id="white-bow" viewBox="0 0 119.756 70.296">
+  <g id="white-bow" transform="translate(-1337.117 1580.4)">
+    <path id="&#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;_244" data-name="&#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440; 244" d="M1397-1545.252l-59.378-34.282v68.564L1397-1545.252l-59.378-34.282v68.564Z" fill="#fff" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"></path>
+    <path id="&#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;_245" data-name="&#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440; 245" d="M1467.9-1545.252l59.378,34.282v-68.564l-59.378,34.282,59.378,34.282v-68.564Z" transform="translate(-70.903)" fill="#fff" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"></path>
+  </g>
+</symbol></svg>
+</div>
+
+<div class="wrapper">
+  <header class="header">
+  <div class="container">
+    <div class="header__top">
+      <div class="header__left">
+        <a href="" class="header__parent-link">
+          <img src="img/svg/logo-paper.svg" alt="Деловая газета" title="Деловая газета">
+        </a>
+
+        <a href="" class="header__home-link">
+          <img src="img/svg/main-logo.svg" alt="ИВЕНТ-БЮРО" title="ИВЕНТ-БЮРО">
+        </a>
+      </div>
+
+      <div class="header__right">
+        <button type="button" class="btn-call">
+          <svg width="27" height="27">
+            <use xlink:href="#icon-phone"></use>
+          </svg>
+          ОБРАТНАЯ СВЯЗЬ
+        </button>
+      </div>
+    </div>
+
+    <nav class="main-menu">
+      <ul class="main-menu__list">
+        <li class="main-menu__item">
+          <a href="">ИВЕНТЫ</a>
+
+          <ul class="main-menu__sub-list">
+            <li><a href="">Винный Бизнес Клуб</a></li>
+            <li><a href="">Конференции</a></li>
+            <li><a href="">Премии и рейтинги</a></li>
+            <li><a href="">Развлекательные Мероприятия </a></li>
+            <li><a href="">КЛИЕНТСКИЕ МЕРОПРИЯТИЯ</a></li>
+          </ul>
+        </li>
+        <li class="main-menu__item">
+          <a href="">PR - СОПРОВОЖДЕНИЕ</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="">КЛИЕНТЫ</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="">КОНТАКТЫ</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <div class="main-slider">
+  <div class="main-slider__container swiper-container">
+    <div class="main-slider__wrapper swiper-wrapper">
+      <div class="main-slider__slide swiper-slide">
+        <div class="main-slider__content">
+          <h3 class="main-slider__title">
+            Винный бизнес-клуб
+            «Деловой газеты.Юг» в Анапе
+          </h3>
+          <p class="main-slider__text">
+            71-е заседание винного бизнес-клуба состоялось 28 сентября в Анапе. По-новому взглянуть на город-курорт участникам заседания помогла старший научный сотрудник Анапского археологического музея Надежда Карпенко.
+          </p>
+        </div>
+<!--        <img src="img/content/slide.jpg" alt="">-->
+        <div class="main-slider__img" style="background-image: url('img/content/slide.jpg')"></div>
+      </div>
+<!--      <div class="main-slider__slide swiper-slide">-->
+<!--        <div class="main-slider__content">-->
+<!--          <h3 class="main-slider__title">-->
+<!--            Винный бизнес-клуб-->
+<!--            «Деловой газеты.Юг» в Анапе-->
+<!--          </h3>-->
+<!--          <p class="main-slider__text">-->
+<!--            71-е заседание винного бизнес-клуба состоялось 28 сентября в Анапе. По-новому взглянуть на город-курорт участникам заседания помогла старший научный сотрудник Анапского археологического музея Надежда Карпенко.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--        <img src="img/content/slide.jpg" alt="">-->
+<!--      </div>-->
+<!--      <div class="main-slider__slide swiper-slide">-->
+<!--        <a href="" class="main-slider__content">-->
+<!--          <h3 class="main-slider__title">-->
+<!--            Винный бизнес-клуб-->
+<!--            «Деловой газеты.Юг» в Анапе-->
+<!--          </h3>-->
+<!--          <p class="main-slider__text">-->
+<!--            71-е заседание винного бизнес-клуба состоялось 28 сентября в Анапе. По-новому взглянуть на город-курорт участникам заседания помогла старший научный сотрудник Анапского археологического музея Надежда Карпенко.-->
+<!--          </p>-->
+<!--        </a>-->
+<!--        <img src="img/content/slide.jpg" alt="">-->
+<!--      </div>-->
+    </div>
+  </div>
+  <button type="button" class="swiper-button-next main-slider__btn main-slider__next "></button>
+  <button type="button" class="swiper-button-prev main-slider__btn main-slider__prev"></button>
+</div>
+
+
+  <main class="main-content">
+    <div class="container">
+      <article class="article-event article-event--last">
+
+        <figure class="article-event__img">
+          <img src="img/content/event-page-image.jpg" alt="">
+        </figure>
+
+        <div class="article-event__content">
+          <h1 class="article-event__title">
+            Винный бизнес-клуб
+            «Деловой газеты.Юг» в Анапе
+          </h1>
+
+          <p>Быстрое оформление, широкое покрытие. Решили застраховать жизнь от несчастного случая? Это очень верное
+            решение, ведь никто не может предугадать разнообразные жизненные ситуации, когда она может пригодиться.
+            Лучше быть готовым ко всему. А мы объясним, как приобрести самый выгодный полис.</p>
+          <p>Страхование жизни от несчастного случая могло бы стать серьёзным подспорьем в случае временной потери
+            трудоспособности: страховая компания поможет не остаться вам и вашей семье без средств к существованию,
+            если что-то произошло с кормильцем. Помните, что в таком случае вы не только теряете доход на
+            неопределённое время, но вам ещё и предстоят траты на лекарства. То же касается и выплаты при инвалидности
+            застрахованного – эти средства можно потратить как на дорогостоящее оборудование для улучшения качества
+            жизни человека с ограничениями, так и на нужды его родных.</p>
+          <p>Задумайтесь о благополучии близких. Что они будут делать, если что-то непоправимое произойдёт с вами?
+            Страхуя свою жизнь, вы проявляете заботу о тех, кто вам дорог.</p>
+        </div>
+      </article>
+
+      <div class="gallery-event">
+        <div class="gallery-event__slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide gallery-event__slide">
+              <a href="img/content/event-page-image.jpg" data-fancybox="images">
+                <img src="img/content/event-slide.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="gallery-event__btn swiper-button-next"></button>
+        <button type="button" class="gallery-event__btn swiper-button-prev"></button>
+
+      </div>
+
+      <div class="archive-events">
+
+  <div class="archive-events__top">
+    <div class="archive-events__top-info">
+      <span class="archive-events__title">
+          АРХИВ <br> МЕРОПРИЯТИЙ
+      </span>
+    </div>
+  </div>
+
+  <ul class="archive-events__list">
+    <li class="archive-events__item">
+      <div class="event-item">
+        <a href="">
+          <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+        </a>
+
+        <time class="event-item__date">25.09.20</time>
+        <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+      </div>
+    </li>
+
+    <li class="archive-events__item">
+      <div class="event-item">
+        <a href="">
+          <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+        </a>
+
+        <time class="event-item__date">25.09.20</time>
+        <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+      </div>
+    </li>
+
+    <li class="archive-events__item">
+      <div class="event-item">
+        <a href="">
+          <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+        </a>
+
+        <time class="event-item__date">25.09.20</time>
+        <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+      </div>
+    </li>
+
+    <li class="archive-events__item">
+      <div class="event-item">
+        <a href="">
+          <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+        </a>
+
+        <time class="event-item__date">25.09.20</time>
+        <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+      </div>
+    </li>
+
+    <li class="archive-events__item">
+      <div class="event-item">
+        <a href="">
+          <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+        </a>
+
+        <time class="event-item__date">25.09.20</time>
+        <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+      </div>
+    </li>
+
+    <li class="archive-events__item">
+      <div class="event-item">
+        <a href="">
+          <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+        </a>
+
+        <time class="event-item__date">25.09.20</time>
+        <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+      </div>
+    </li>
+
+    <li class="archive-events__item">
+      <div class="event-item">
+        <a href="">
+          <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+        </a>
+
+        <time class="event-item__date">25.09.20</time>
+        <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+    </div>
+  </main>
+
+  <section class="main-form">
+  <div class="container">
+    <div class="main-form__wrapper">
+      <h2 class="main-form__title">ОБРАТНАЯ СВЯЗЬ</h2>
+      <form action="form.php" method="post" class="main-form__form">
+        <div class="input-wrapper main-form__field main-form__field_name">
+          <input class="main-form__input" name="name" type="text" placeholder="Имя">
+        </div>
+        <div class="input-wrapper main-form__field main-form__field_phone">
+          <input class="main-form__input" name="phone" type="tel" placeholder="Телефон" data-im-insert="true">
+        </div>
+
+        <div class="main-form__bottom">
+          <div class="main-form__text">
+            <p class="main-form__privacy">Нажимая на кнопку вы соглашаетесь с правилами обработки персональных данных</p>
+          </div>
+          <div class="main-form__btn-wrapper">
+            <button type="submit" class="btn main-form__btn">отправить</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <footer class="footer">
+  <div class="container">
+    <nav class="main-menu main-menu--footer">
+      <ul class="main-menu__list">
+        <li class="main-menu__item">
+          <a href="">ИВЕНТЫ</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="">PR - СОПРОВОЖДЕНИЕ</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="">КЛИЕНТЫ</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="">КОНТАКТЫ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="footer__bottom">
+      <div class="footer__left">
+        <a href="" class="footer__parent-link">
+          <img src="img/svg/logo-paper.svg" alt="Деловая газета" title="Деловая газета">
+        </a>
+
+        <a href="" class="footer__home-link">
+          <img src="img/svg/main-logo-white.svg" alt="ИВЕНТ-БЮРО" title="ИВЕНТ-БЮРО">
+        </a>
+        <p>© ООО «АГЕНТСТВО РЕКЛАМНЫХ РЕШЕНИЙ ПОЛОСАТЫЙ СЛОН»</p>
+      </div>
+
+      <div class="footer__right">
+        <address class="address-block">
+          350000, г.&nbsp;Краснодар, ул.&nbsp;Красноармейская,&nbsp;43, офис&nbsp;301
+          <br>
+          Телефон: <a href="tel:+7(861)9910133">+7 (861) 991-01-33</a>
+          <br>
+          Электронная почта: <a href="mailto:info@dg-yug.ru">info@dg-yug.ru</a>
+        </address>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/vendor.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>

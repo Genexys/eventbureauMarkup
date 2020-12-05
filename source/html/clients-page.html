@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <include src="source/html/base/head.html"></include>
+  <title>ИВЕНТ-БЮРО</title>
+
+</head>
+<body>
+
+<div style="display: none;">
+  <include src="build/img/sprite_auto.svg"></include>
+</div>
+
+<div class="wrapper">
+  <include src="source/html/base/header.html"></include>
+  <include src="source/html/components/main-slider.html"></include>
+
+  <main class="main-content">
+    <div class="container">
+      <h1 class="page-title">КЛИЕНТЫ</h1>
+
+      <ul class="clients-list">
+        <li class="clients-list__item"><img src="img/content/client-1.png" alt=""></li>
+        <li class="clients-list__item"><img src="img/content/client-1.png" alt=""></li>
+        <li class="clients-list__item"><img src="img/content/client-1.png" alt=""></li>
+        <li class="clients-list__item"><img src="img/content/client-1.png" alt=""></li>
+        <li class="clients-list__item"><img src="img/content/client-1.png" alt=""></li>
+      </ul>
+    </div>
+  </main>
+
+  <include src="source/html/components/main-form.html"></include>
+  <include src="source/html/base/footer.html"></include>
+</div>
+<?php if( have_rows('slider') ): ?>
+<?php while( have_rows('slider') ): the_row();
+                                    $image = get_sub_field('slide_image');
+                                    ?>
+<div class="main-slider__slide swiper-slide">
+  <div class="main-slider__content">
+    <h3 class="main-slider__title">
+      <?php the_sub_field('slide_title'); ?>
+    </h3>
+    <p class="main-slider__text">
+      <?php the_sub_field('slide_text'); ?>
+    </p>
+  </div>
+  <div class="main-slider__img" style="background-image: url('<?php echo $image['url']; ?>')"></div>
+</div>
+<?php endwhile; ?>
+<?php endif; ?>
+<script src="js/vendor.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>

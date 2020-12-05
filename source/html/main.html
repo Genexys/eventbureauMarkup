@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <include src="source/html/base/head.html"></include>
+  <title>ИВЕНТ-БЮРО</title>
+
+</head>
+<body>
+
+  <div style="display: none;">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+
+  <div class="wrapper">
+    <include src="source/html/base/header.html"></include>
+    <include src="source/html/components/main-slider.html"></include>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="main-page-content">
+          <aside class="main-sidebar">
+            <div class="last-news">
+              <span class="last-news__title">Новости</span>
+              <ul class="last-news__list">
+                <li class="last-news__item">
+                  <a href="">
+                    <time class="last-news__date">18 августа</time>
+                    <p class="last-news__text">Международный фестиваль фотографии PHOTOVISA-2020</p>
+                  </a>
+                </li>
+
+                <li class="last-news__item">
+                  <a href="">
+                    <time class="last-news__date">18 августа</time>
+                    <p class="last-news__text">Международный фестиваль фотографии PHOTOVISA-2020</p>
+                  </a>
+                </li>
+
+                <li class="last-news__item">
+                  <a href="">
+                    <time class="last-news__date">18 августа</time>
+                    <p class="last-news__text">Международный фестиваль фотографии PHOTOVISA-2020</p>
+                  </a>
+                </li>
+
+                <li class="last-news__item">
+                  <a href="">
+                    <time class="last-news__date">18 августа</time>
+                    <p class="last-news__text">Международный фестиваль фотографии PHOTOVISA-2020</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <article class="main-info">
+            <h1 class="main-info__title">ИВЕНТ-БЮРО</h1>
+
+            <p>Быстрое оформление, широкое покрытие. Решили застраховать жизнь от несчастного случая? Это очень верное решение, ведь никто не может предугадать разнообразные жизненные ситуации, когда она может пригодиться. Лучше быть готовым ко всему. А мы объясним, как приобрести самый выгодный полис.</p>
+            <p>Страхование жизни от несчастного случая могло бы стать серьёзным подспорьем в случае временной потери трудоспособности: страховая компания поможет не остаться вам и вашей семье без средств к существованию, если что-то произошло с кормильцем. Помните, что в таком случае вы не только теряете доход на неопределённое время, но вам ещё и предстоят траты на лекарства. То же касается и выплаты при инвалидности застрахованного – эти средства можно потратить как на дорогостоящее оборудование для улучшения качества жизни человека с ограничениями, так и на нужды его родных.</p>
+
+          </article>
+          <div class="adv-banner-wrapper">
+            <div class="ad-banner">
+              <a href="">
+                <img src="img/content/ad-banner.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <section class="main-last-events">
+          <h2 class="main-last-events__title">
+            СОБЫТИЯ
+          </h2>
+
+          <div class="main-last-events__wrapper">
+            <div class="main-last-events__slider swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="event-item">
+                    <a href="">
+                      <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+                    </a>
+
+                    <time class="event-item__date">25.09.20</time>
+                    <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="event-item">
+                    <a href="">
+                      <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+                    </a>
+
+                    <time class="event-item__date">25.09.20</time>
+                    <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="event-item">
+                    <a href="">
+                      <img src="img/content/event-slide.jpg" alt="" class="event-item__img">
+                    </a>
+
+                    <time class="event-item__date">25.09.20</time>
+                    <a href="" class="event-item__text">Международный фестиваль фотографии PHOTOVISA-2020. </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button type="button" class="main-last-events__btn swiper-button-next"></button>
+            <button type="button" class="main-last-events__btn swiper-button-prev"></button>
+          </div>
+        </section>
+
+
+      </div>
+    </main>
+
+    <include src="source/html/components/main-form.html"></include>
+    <include src="source/html/base/footer.html"></include>
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+</html>
